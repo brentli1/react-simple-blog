@@ -7,3 +7,24 @@ body {
 form a {
   margin-left: 5px;
 }
+
+.container {
+  padding: 20px 0;
+}
+
+.list-group-item {
+  background-color: #FFF;
+  padding: 0;
+  transition: background-color 150ms ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: #EEE;
+}
+
+.list-group-item a {
+  color: #000;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
